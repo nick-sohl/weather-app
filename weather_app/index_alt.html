@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="./assets//favicon-32x32.png">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <title>Nick's Weather App</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <nav class="navbar">
+            <h1 class="nav-headline">Nick's Weather App</h1>
+        </nav>
+    </header>
+
+    <!-- Input -->
+    <form class="form" action="">
+        <input class="input" type="text" placeholder="Enter your location">
+        <input class="submit-btn" type="submit" value="Submit">
+    </form>
+
+    <!-- Forecast -->
+        <div class="forecast-wrapper">
+        <!-- Date -->
+        <div class="date-wrapper">
+            <h3>Today</h3>
+            <p class="date">25. Juli 2023</p>
+        </div>
+        <!-- Data -->
+        <div class="forecast">
+            <!-- Icon -->
+            <div class="icon-wrapper">
+
+            </div>
+            <!-- Temperature -->
+            <div class="temperature-wrapper">
+                <h3>Actual temperature</h3>
+                <h1 class="temperature">25 °C</h1>
+            </div>
+            <!-- Weather Description -->
+            <div class="weather-description">
+                <h3>Rainy</h3>
+            </div>
+            <!-- Min / Max Temp -->
+            <div class="min-max-temp">
+                <h3>Min. 14 °C</h3>
+                <h3>Max. 24 °C</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="./app.js"></script>
+
+</body>
+</html>
